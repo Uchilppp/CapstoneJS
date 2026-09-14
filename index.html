@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cyber Phone - Premium smartphone shopping store">
+  <title>Cyber Phone - Home</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
+  <!-- CSS trang chủ -->
+  <link rel="stylesheet" href="./customer/view/css/homePage.css">
+</head>
+<body>
+  <div class="home-wrapper">
+    <div class="home-logo">
+      <i class="robot-icon">🤖</i>
+      <h1>Cyber Phone</h1>
+      <p>Your premium smartphone destination</p>
+    </div>
+
+    <div class="home-nav container">
+      <div class="row justify-content-center g-4">
+        <!-- Admin Page Card -->
+        <div class="col-md-5 col-sm-10">
+          <a href="./admin/view/admin.html" class="home-card-link">
+            <div class="home-card" id="adminCard">
+              <div class="home-card-icon">
+                <img src="./customer/view/img/admin2.png" alt="Admin" onerror="this.src='https://via.placeholder.com/180x180?text=Admin'">
+              </div>
+              <h2>Admin Page</h2>
+              <p>Manage your products</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Store Page Card -->
+        <div class="col-md-5 col-sm-10">
+          <a href="./customer/view/store.html" class="home-card-link">
+            <div class="home-card" id="storeCard">
+              <div class="home-card-icon">
+                <img src="./customer/view/img/store.png" alt="Store" onerror="this.src='https://via.placeholder.com/180x180?text=Store'">
+              </div>
+              <h2>Store Page</h2>
+              <p>Browse & shop phones</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

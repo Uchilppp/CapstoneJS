@@ -1,0 +1,14 @@
+{
+  "name": "capstone-js-cyber-phone",
+  "version": "1.0.0",
+  "description": "Cyber Phone - Shopping Cart Capstone JS Project",
+  "scripts": {
+    "sass": "sass customer/view/css/style.scss customer/view/css/style.css --style=expanded --no-source-map && sass admin/view/css/admin.scss admin/view/css/admin.css --style=expanded --no-source-map",
+    "sass:watch": "sass --watch customer/view/css/style.scss:customer/view/css/style.css admin/view/css/admin.scss:admin/view/css/admin.css --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.80.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
